@@ -64,3 +64,4 @@ docker build -t gmod-server . ; docker run --rm -it --name gmod \
 # Todo
 - Make srcds inside container able to do restarts (keep no restart and add a watchdog script) to restart it, will have to tinker with container
 - Update readme with permission instructions for mounting volume
+- Add autoreconnect and other gamemodes
