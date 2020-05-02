@@ -60,3 +60,7 @@ docker build -t gmod-server . ; docker run --rm -it --name gmod \
 - `-it` there is 2 options where -t allocate a pseudo-TTY (required) and -i which allow you to interact with gmod console (run commands etc)
 - `docker logs -f container_name` let's receive logs from server!
 - `docker exec -it container_name bash` connect to container shell
+
+# Todo
+- Make srcds inside container able to do restarts (keep no restart and add a watchdog script) to restart it, will have to tinker with container
+- Update readme with permission instructions for mounting volume
